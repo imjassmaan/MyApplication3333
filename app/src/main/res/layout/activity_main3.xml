@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="6"
+    android:columnCount="7">
+
+    <!-- Weekday labels (Sun, Mon, Tue, etc.) -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Sun"
+        android:gravity="center"
+        android:background="#CCCCCC" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Mon"
+        android:gravity="center"
+        android:background="#CCCCCC" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Tue"
+        android:gravity="center"
+        android:background="#CCCCCC" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Wed"
+        android:gravity="center"
+        android:background="#CCCCCC" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Thu"
+        android:gravity="center"
+        android:background="#CCCCCC" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Fri"
+        android:gravity="center"
+        android:background="#CCCCCC" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Sat"
+        android:gravity="center"
+        android:background="#CCCCCC" />
+
+    <!-- Days of the month -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="1"
+        android:gravity="center"
+        android:background="#FFFFFF" />
+    <!-- Repeat this TextView for each day of the month -->
+
+</GridLayout>
